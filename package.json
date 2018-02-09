@@ -1,6 +1,5 @@
 {
   "_from": "magic-vue-input",
-  "_id": "magic-vue-input@1.0.1",
   "_inBundle": false,
   "_integrity": "sha1-4RX6VCZ/Y3lmOHsSS3hr7/TfcQ0=",
   "_location": "/magic-vue-input",
@@ -23,10 +22,7 @@
   "_shasum": "e115fa54267f637966387b124b786beff4df710d",
   "_spec": "magic-vue-input",
   "_where": "C:\\Users\\zjtachao\\Desktop\\pltest",
-  "author": {
-    "name": "luchenkai@qq.com",
-    "email": "luchenkai@qq.com"
-  },
+  "author": "luchenkai@qq.com <luchenkai@qq.com>",
   "browserslist": [
     "> 1%",
     "last 2 versions",
@@ -107,5 +103,8 @@
     "type": "git",
     "url": "git+https://github.com/charleslck/magic-vue-input.git"
   },
-  "version": "1.0.2"
+  "version": "1.0.3",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
