@@ -14,22 +14,14 @@ import MagicVueInput from 'magic-vue-input'
   
 ### How to use
 ``` javascript
-<MagicVueInput dataBack='dataBack' :data='msg' placeholder='type here' type='text' maxlength='23' theme='dark'></MagicVueInput>
+<MagicVueInput v-model='msg' placeholder='Name' type='password' color='red'></MagicVueInput>
 ```
 
-``` javascript
-methods: {
-  dataBack(data){
-    this.msg = data
-  }
-}
-```
 ### Props
 
 | Name | Value |
 |--------|------|
-| `data` | String,Number |
 | `placeholder` | String,Number |
 | `type` | String: 'text' or 'passwrod' |
 | `maxlength` | Number |
-| `theme` | String: 'dark' or 'light' |
+| `color` | String: hash string color |
