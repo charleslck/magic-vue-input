@@ -14,14 +14,14 @@ import MagicVueInput from 'magic-vue-input'
   
 ### How to use
 ``` javascript
-<MagicVueInput v-model='msg' placeholder='Name' type='password' color='red'></MagicVueInput>
+<MagicVueInput v-model='msg' placeholder='Name' type='password' textColor='red' placeholderColor='orange' lineColor='black' closeBtnColor='blue'></MagicVueInput>
 ```
 
 ### Props
 
 | Name | Value | Des |
 |--------|------|------|
-| `value` | Any | The value of your input |
+| `v-model` | Any | The value of your input |
 | `placeholder` | String,Number | The placeholder when your input value is none |
 | `type` | String: 'text' or 'passwrod' | Only support text & password |
 | `maxlength` | Number | Longest number of your input text |
