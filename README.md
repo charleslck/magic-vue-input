@@ -20,7 +20,7 @@ import MagicVueInput from 'magic-vue-input'
 ### Props
 
 | Name | Value | Des |
-|--------|------|
+|--------|------|------|
 | `value` | Any | The value of your input |
 | `placeholder` | String,Number | The placeholder when your input value is none |
 | `type` | String: 'text' or 'passwrod' | Only support text & password |
