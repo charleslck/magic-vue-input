@@ -19,9 +19,15 @@ import MagicVueInput from 'magic-vue-input'
 
 ### Props
 
-| Name | Value |
+| Name | Value | Des |
 |--------|------|
-| `placeholder` | String,Number |
-| `type` | String: 'text' or 'passwrod' |
-| `maxlength` | Number |
-| `color` | String: hash string color |
+| `value` | Any | The value of your input |
+| `placeholder` | String,Number | The placeholder when your input value is none |
+| `type` | String: 'text' or 'passwrod' | Only support text & password |
+| `maxlength` | Number | Longest number of your input text |
+| `textColor` | String: hash string color | Color of input text |
+| `lineColor` | String: hash string color | Color of bottom line |
+| `closeBtnColor` | String: hash string color | Color of the colse button |
+| `placeholderColor` | String: hash string color | Color of placeholder |
+| `fontSize` | Number | Font size of text |
+| `textOffsetBot` | Number | Vertical offset of text |
